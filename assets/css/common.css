@@ -118,10 +118,14 @@ nav .cart {
 
 /* footer */
 
-footer .subscription {
-  line-height: 116px;
+footer .subscription,
+footer .contact-info {
   padding: 0px 122px;
   position: relative;
+}
+
+footer .subscription {
+  line-height: 116px;
   font-size: 24px;
 }
 
@@ -185,4 +189,54 @@ footer .subscription .input-area form button {
   top: 0px;
   right: 0px;
   cursor: pointer;
+}
+
+footer .contact-info {
+  height: 281px;
+  padding: 30px 122px;
+}
+
+footer .contact-info .logo,
+footer .contact-info .slogan,
+footer .contact-info .info,
+footer .contact-info .icon,
+footer .contact-info .copy-right {
+  position: absolute;
+} 
+
+footer .contact-info .logo,
+footer .contact-info .slogan {
+  display: inline-block;
+}
+
+footer .contact-info .logo {
+  width: 171px;
+  top: 30px;
+  left: 122px;
+}
+
+footer .contact-info .slogan {
+  width: 59px;
+  top: 30px;
+  right: 122px;
+}
+
+footer .contact-info .info {
+  bottom: 92px;
+  left: 122px;
+}
+
+footer .contact-info .info > p {
+  line-height: 24px;
+}
+
+footer .contact-info .icon {
+  bottom: 30px;
+  left: 122px;
+  font-size: 32px;
+}
+
+footer .contact-info .copy-right {
+  bottom: 30px;
+  right: 122px;
 }
