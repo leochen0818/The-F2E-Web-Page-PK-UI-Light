@@ -90,7 +90,7 @@ nav {
 
 nav img {
   height: 40px;
-  vertical-align: middle;
+  vertical-align: text-bottom;
 }
 
 nav a {
@@ -116,3 +116,73 @@ nav .cart {
   text-align: center;
 }
 
+/* footer */
+
+footer .subscription {
+  line-height: 116px;
+  padding: 0px 122px;
+  position: relative;
+  font-size: 24px;
+}
+
+footer .subscription h3 {
+  position: absolute;
+  top: 0px;
+  left: 182px;
+}
+
+footer .subscription .logo {
+  width: 40px;
+  vertical-align: middle;
+}
+
+footer .subscription .input-area {
+  position: absolute;
+  top: 0px;
+  right: 122px;
+  height: 100%;
+  width: 380px;
+  color: #3F5D45;
+}
+
+footer .subscription .input-area form {
+  width: 100%;
+  line-height: 56px;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+}
+
+footer .subscription .input-area form input,
+footer .subscription .input-area form button {
+  border: none;
+  background-color: inherit;
+  outline: none;
+  height: 100%;
+  padding: 0px;
+}
+
+footer .subscription .input-area form label {
+  padding: 0px 20px;
+  cursor: pointer;
+}
+
+footer .subscription .input-area form input {
+  display: inline-block;
+  width: 252px;
+  position: absolute;
+  top: 0px;
+  left: 64px;
+}
+
+footer .subscription .input-area form button {
+  display: inline-block;
+  position: absolute;
+  width: 64px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #FFE180;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
