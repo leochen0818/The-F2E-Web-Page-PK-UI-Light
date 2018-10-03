@@ -64,7 +64,6 @@ body {
 }
 
 nav, footer, div#content {
-  max-width: 1024px;
   margin: 0 auto;
 }
 
@@ -85,9 +84,13 @@ nav, footer, div#content {
 }
 
 /* nav */
-nav {
+nav,
+div#content {
   max-width: 940px;
   padding: 0px 42px;
+}
+
+nav {
   line-height: 100px;
   position: relative;
 }
@@ -122,6 +125,10 @@ nav .cart {
 }
 
 /* footer */
+
+footer {
+  max-width: 1024px;
+}
 
 footer .subscription,
 footer .contact-info {
