@@ -59,3 +59,51 @@
   background-color: rgba(255, 225, 128, .8);
   color: #3F5D45;
 }
+
+/* 為什麼選擇了做甜點區域 */
+
+#content .why-choose {
+  height: 460px;
+  margin-bottom: 60px;
+  padding: 20px 0px;
+}
+
+#content .img {
+  position: absolute;
+  top: 0px;
+  background-size: cover;
+  background-position: center center;
+}
+
+#content .why-choose > .img:first-child {
+  width: 460px;
+  height: 460px;
+  left: 0px;
+  background-image: url(../images/others/le-buzz-576478-unsplash.jpg);
+}
+
+#content .why-choose > .img:nth-child(2) {
+  width: 89px;
+  height: 307px;
+  right: 0px;
+  background-image: url(../images/logo/lg-為什麼選擇了做甜點.svg);
+}
+
+#content .why-choose .description {
+  background-color: #EAF0ED;
+  height: 280px;
+  margin: 0px -42px;
+  padding: 70px;
+}
+#content .why-choose .description > p {
+  color: #8DA291;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl ;
+  line-height: 40px;
+  float: right;
+}
+
+#content .why-choose .description > p:first-child {
+  margin-right: 129px;
+  margin-left: 40px;
+}
