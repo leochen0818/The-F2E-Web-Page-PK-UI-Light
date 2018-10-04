@@ -1,12 +1,12 @@
 /* Common */
 
-#content > div {
+article > section {
   position: relative;
 }
 
 /* 主要的 Banner 區域 */
 
-#content .main-banner {
+article .main-banner {
   height: 496px;
   background-image: url(../images/others/annie-spratt-133872-unsplash.jpg);
   background-size: cover;
@@ -14,14 +14,14 @@
   margin-bottom: 227px;
 }
 
-#content .main-banner ul {
+article .main-banner ul {
   width: 780px;
   position: absolute;
   left: 80px;
   top: 407px;
 }
 
-#content .main-banner ul > li {
+article .main-banner ul > li {
   width: 33.333%;
   height: 256px;
   float: left;
@@ -29,19 +29,19 @@
   background-position: center center;
 }
 
-#content .main-banner ul > li:first-child {
+article .main-banner ul > li:first-child {
   background-image: url(../images/others/brooke-lark-230642-unsplash.jpg)
 }
 
-#content .main-banner ul > li:nth-child(2) {
+article .main-banner ul > li:nth-child(2) {
   background-image: url(../images/others/whitney-wright-356670-unsplash.jpg)
 }
 
-#content .main-banner ul > li:last-child {
+article .main-banner ul > li:last-child {
   background-image: url(../images/others/food-photographer-jennifer-pallian-306919-unsplash.jpg)
 }
 
-#content .main-banner ul > li > a {
+article .main-banner ul > li > a {
   -webkit-writing-mode: vertical-lr;
   writing-mode: vertical-lr ;
   letter-spacing: 10px;
@@ -55,33 +55,33 @@
   color: white;
 }
 
-#content .main-banner ul > li > a:hover {
+article .main-banner ul > li > a:hover {
   background-color: rgba(255, 225, 128, .8);
   color: #3F5D45;
 }
 
 /* 為什麼XXXX甜點區域共同設定 */
 
-#content .why {
+article .why {
   margin-bottom: 60px;
   padding: 20px 0px;
 }
 
-#content .why .img {
+article .why .img {
   position: absolute;
   top: 0px;
   background-size: cover;
   background-position: center center;
 }
 
-#content .why .description {
+article .why .description {
   background-color: #EAF0ED;
   height: 280px;
   margin: 0px -42px;
   padding: 70px 0px;
 }
 
-#content .why .description > p {
+article .why .description > p {
   color: #8DA291;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl ;
@@ -90,62 +90,62 @@
 
 /* 為什麼選擇了做甜點區域 */
 
-#content .why-choose > .img:first-child {
+article .why-choose > .img:first-child {
   width: 460px;
   height: 460px;
   left: 0px;
   background-image: url(../images/others/le-buzz-576478-unsplash.jpg);
 }
 
-#content .why-choose > .img:nth-child(2) {
+article .why-choose > .img:nth-child(2) {
   width: 89px;
   height: 307px;
   right: 0px;
   background-image: url(../images/logo/lg-為什麼選擇了做甜點.svg);
 }
 
-#content .why-choose .description > p {
+article .why-choose .description > p {
   float: right;
 }
 
-#content .why-choose .description > p:first-child {
+article .why-choose .description > p:first-child {
   margin-right: 199px;
   margin-left: 40px;
 }
 
 /* 為什麼一定要吃甜點區域 */
 
-#content .why-eat > .img:first-child {
+article .why-eat > .img:first-child {
   width: 460px;
   height: 460px;
   right: 0px;
   background-image: url(../images/others/monika-grabkowska-325047-unsplash.jpg);
 }
 
-#content .why-eat > .img:nth-child(2) {
+article .why-eat > .img:nth-child(2) {
   width: 89px;
   height: 303px;
   right: 502px;
   background-image: url(../images/logo/lg-為什麼一定要吃甜點.svg);
 }
 
-#content .why-eat .description > p {
+article .why-eat .description > p {
   float: left;
 }
 
-#content .why-eat .description > p:first-child {
+article .why-eat .description > p:first-child {
   margin-right: 40px;
   margin-left: 42px;
 }
 
 /* 想吃甜點是不需要理由的區域 */
 
-#content .no-why {
+article .no-why {
   margin: 20px 0px 80px;
   text-align: center
 }
 
-#content .no-why img {
+article .no-why img {
   width: 89px;
   height: 328px;
 }

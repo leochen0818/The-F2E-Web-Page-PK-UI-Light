@@ -63,7 +63,7 @@ body {
   background-color: white;
 }
 
-nav, footer, div#content {
+header, footer, article {
   margin: 0 auto;
 }
 
@@ -83,40 +83,39 @@ nav, footer, div#content {
   color: #EAF0ED;
 }
 
-/* nav */
-nav,
-div#content {
+/* header */
+header, article {
   max-width: 940px;
   padding: 0px 42px;
 }
 
-nav {
+header {
   line-height: 100px;
   position: relative;
 }
 
-nav img {
+header img {
   height: 40px;
   vertical-align: text-bottom;
 }
 
-nav a {
+header a {
   display: inline-block;
 }
 
-nav .menu {
+header nav {
   position: absolute;
   top: 0px;
   right: 120px;
 }
 
-nav .menu > li {
+header nav li {
   display: inline-block;
   width: 80px;
   text-align: center;
 }
 
-nav .cart {
+header .cart {
   height: 100%;
   position: absolute;
   right: 42px;
