@@ -1,10 +1,16 @@
+/* Common */
+
+#content > div {
+  position: relative;
+}
+
+/* 主要的 Banner 區域 */
+
 #content .main-banner {
   height: 496px;
   background-image: url(../images/others/annie-spratt-133872-unsplash.jpg);
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
   margin-bottom: 227px;
 }
 
