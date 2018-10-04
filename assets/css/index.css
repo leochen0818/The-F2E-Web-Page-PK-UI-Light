@@ -113,3 +113,28 @@
   margin-right: 199px;
   margin-left: 40px;
 }
+
+/* 為什麼一定要吃甜點區域 */
+
+#content .why-eat > .img:first-child {
+  width: 460px;
+  height: 460px;
+  right: 0px;
+  background-image: url(../images/others/monika-grabkowska-325047-unsplash.jpg);
+}
+
+#content .why-eat > .img:nth-child(2) {
+  width: 89px;
+  height: 303px;
+  right: 502px;
+  background-image: url(../images/logo/lg-為什麼一定要吃甜點.svg);
+}
+
+#content .why-eat .description > p {
+  float: left;
+}
+
+#content .why-eat .description > p:first-child {
+  margin-right: 40px;
+  margin-left: 42px;
+}
