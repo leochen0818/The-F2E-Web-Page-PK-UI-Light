@@ -79,7 +79,7 @@
   background-color: #EAF0ED;
   height: 280px;
   margin: 0px -42px;
-  padding: 70px;
+  padding: 70px 0px;
 }
 
 #content .why .description > p {
@@ -87,7 +87,6 @@
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl ;
   line-height: 40px;
-  float: right;
 }
 
 /* 為什麼選擇了做甜點區域 */
@@ -106,7 +105,11 @@
   background-image: url(../images/logo/lg-為什麼選擇了做甜點.svg);
 }
 
+#content .why-choose .description > p {
+  float: right;
+}
+
 #content .why-choose .description > p:first-child {
-  margin-right: 129px;
+  margin-right: 199px;
   margin-left: 40px;
 }
