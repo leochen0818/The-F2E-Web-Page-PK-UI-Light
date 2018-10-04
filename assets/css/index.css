@@ -137,3 +137,15 @@
   margin-right: 40px;
   margin-left: 42px;
 }
+
+/* 想吃甜點是不需要理由的區域 */
+
+#content .no-why {
+  margin: 20px 0px 80px;
+  text-align: center
+}
+
+#content .no-why img {
+  width: 89px;
+  height: 328px;
+}
