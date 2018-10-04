@@ -62,13 +62,13 @@
 
 /* 為什麼選擇了做甜點區域 */
 
-#content .why-choose {
+#content .why {
   height: 460px;
   margin-bottom: 60px;
   padding: 20px 0px;
 }
 
-#content .img {
+#content .why .img {
   position: absolute;
   top: 0px;
   background-size: cover;
@@ -89,14 +89,14 @@
   background-image: url(../images/logo/lg-為什麼選擇了做甜點.svg);
 }
 
-#content .why-choose .description {
+#content .why .description {
   background-color: #EAF0ED;
   height: 280px;
   margin: 0px -42px;
   padding: 70px;
 }
 
-#content .why-choose .description > p {
+#content .why .description > p {
   color: #8DA291;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl ;
