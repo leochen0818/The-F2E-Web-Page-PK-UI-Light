@@ -22,7 +22,7 @@
   max-width: 940px;
   padding: 0px 42px;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   overflow: hidden;
 }
 
@@ -45,8 +45,6 @@
   line-height: 56px;
 }
 
-/* 商品區域 */
-
 .container aside li {
   border: #EAF0ED 1px solid;
   cursor: pointer;
@@ -57,9 +55,15 @@
   background-color: #EAF0ED;
 }
 
+/* 商品區域 */
+
 .container article {
   width: 620px;
   padding: 0px;
+}
+
+.container article .item-list {
+  overflow: hidden;
 }
 
 .container article .choice-item {
@@ -92,4 +96,36 @@
 
 .container article .choice-item:last-child .img {
   background-image: url(../images/others/food-photographer-jennifer-pallian-306895-unsplash.jpg);
+}
+
+
+
+.pagination {
+  height: 60px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.pagination ul {
+  width: 300px;
+  position: absolute;
+  right: 0px;
+  overflow: hidden;
+}
+
+.pagination ul li {
+  width: 58px;
+  height: 58px;
+  line-height: 60px;
+  text-align: center;
+  float: left;
+  border: solid 1px #EAF0ED;
+  cursor: pointer;
+}
+
+.pagination ul li:hover,
+.pagination ul li:active {
+  background-color: #3F5D45;
+  border-top-color: #3F5D45;
+  color: #EAF0ED;
 }
