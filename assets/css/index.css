@@ -336,4 +336,15 @@ article .today-choice .choice-item button {
     height: 60px;
   }
 
+  /* 本日精選 */
+
+  article .today-choice {
+    margin-bottom: 30px;
+    padding: 0px 30px;
+  }
+
+  article .today-choice .choice-item {
+    width: 100%;
+  }
+
 }
