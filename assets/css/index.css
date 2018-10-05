@@ -324,4 +324,16 @@ article .today-choice .choice-item button {
     margin-bottom: 40px;
   }
 
+  /* 想吃甜點是不需要理由的 */
+
+  article .no-why {
+    margin: 30px 0px;
+  }
+
+  article .no-why img.mobile {
+    display: inline-block;
+    width: 226px;
+    height: 60px;
+  }
+
 }
