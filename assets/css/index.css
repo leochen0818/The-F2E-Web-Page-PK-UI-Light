@@ -273,6 +273,7 @@ article .today-choice .choice-item button {
   article .why {
     padding: 0px;
     padding-top: 30px;
+    margin-bottom: 0px;
   }
 
   article .why .img {
