@@ -282,6 +282,10 @@ footer .contact-info .copy-right {
 
   /* Header 區域 */
 
+  header, article {
+    max-width: 100vw;
+  }
+
   header, article, footer {
     width: 100%;
     padding: 0px;
