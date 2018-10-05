@@ -281,6 +281,17 @@ article .today-choice .choice-item button {
     margin: 0px auto;
   }
 
+  article .why > .img:first-child {
+    width: 196px;
+    height: 60px;
+    margin-bottom: 30px;
+  }
+
+  article .why > .img:nth-child(2) {
+    width: 100%;
+    height: 250px;
+  }
+
   article .why .description {
     padding: 30px;
     margin: 0px;
@@ -295,19 +306,21 @@ article .today-choice .choice-item button {
   /* 為什麼選擇了做甜點 */
   
   article .why-choose > .img:first-child {
-    width: 196px;
-    height: 60px;
     background-image: url(../images/logo/sm-為什麼選擇了做甜點.svg);
-    margin-bottom: 30px;
-  }
-
-  article .why-choose > .img:nth-child(2) {
-    width: 100%;
-    height: 250px;
   }
 
   article .why-choose .description > p:first-child {
     margin: 0px;
+    margin-bottom: 40px;
+  }
+
+  /* 為什麼一定要吃甜點 */
+
+  article .why-eat > .img:first-child {
+    background-image: url(../images/logo/sm-為什麼一定要吃甜點.svg);
+  }
+
+  article .why-eat .description > p:nth-child(2) {
     margin-bottom: 40px;
   }
 
