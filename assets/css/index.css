@@ -223,11 +223,11 @@ article .today-choice .choice-item .description > p::before {
 }
 
 article .today-choice .choice-item .description > p:first-child {
-  width: 173px;
+  width: 57.666%;
 }
 
 article .today-choice .choice-item .description > p:last-child {
-  width: 127px;
+  width: 42.333%;
 }
 
 article .today-choice .choice-item .description > p:last-child::after {
