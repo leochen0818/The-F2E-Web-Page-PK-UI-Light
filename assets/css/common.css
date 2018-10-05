@@ -83,6 +83,10 @@ header, footer, article {
   color: #EAF0ED;
 }
 
+.mobile {
+  display: none;
+}
+
 /* header */
 header, article {
   max-width: 940px;
@@ -262,4 +266,136 @@ footer .contact-info .icon a img {
 footer .contact-info .copy-right {
   bottom: 30px;
   right: 122px;
+}
+
+/* 低於 1024 之螢幕設定 */
+
+@media screen and (max-width: 1023px) {
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  /* Header 區域 */
+
+  header, article, footer {
+    width: 100%;
+    padding: 0px;
+  }
+
+  header {
+    text-align: center;
+    line-height: 84px;
+    position: fixed;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  header img {
+    height: 18px;
+    vertical-align: middle;
+  }
+
+  header nav {
+    cursor: pointer;
+    width: 84px;
+    height: 84px;
+    text-align: center;
+    left: 0px;
+  }
+
+  header nav ul {
+    position: absolute;
+    top: 84px;
+    left: 0px;
+    display: none;
+  }
+
+  header nav:active ul, 
+  header nav:hover ul {
+    display: block;
+  }
+
+  header nav li {
+    width: 100vw;
+    background-color: rgba(255, 255, 255, .8);
+  }
+
+  header nav li:hover,
+  header nav li:active {
+    background-color: rgba(255, 225, 128, .8);
+  }
+
+  header nav li a {
+    width: 100%;
+  }
+
+  /* Article 區域 */
+  article {
+    padding-top: 84px;
+  }
+
+  /* Footer 區域 */
+
+  footer .subscription {
+    padding: 30px;
+    line-height: 1em;
+  }
+
+  footer .subscription h3 {
+    position: static;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  footer .subscription h3 .logo {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 20px;
+  }
+
+  footer .subscription .input-area {
+    width: 100%;
+    height: 56px;
+    position: relative;
+    right: 0px;
+  }
+
+  footer .subscription .input-area form {
+    position: static;
+  }
+
+  footer .contact-info .slogan {
+    display: none;
+  }
+
+  footer .contact-info {
+    padding: 30px;
+  }
+
+  footer .contact-info .logo,
+  footer .contact-info .info, 
+  footer .contact-info .icon, 
+  footer .contact-info .copy-right {
+    position: static;
+  }
+
+  footer .contact-info .logo {
+    margin-top: 9px;
+  }
+
+  footer .contact-info .info {
+    margin-top: 39px;
+    margin-bottom: 37px;
+  }
+
+  footer .contact-info .icon {
+    margin-bottom: 23px;
+  }
+
 }
