@@ -90,17 +90,17 @@ article .why .description > p {
 /* 為什麼選擇了做甜點區域 */
 
 article .why-choose > .img:first-child {
-  width: 460px;
-  height: 460px;
-  left: 0px;
-  background-image: url(../images/others/le-buzz-576478-unsplash.jpg);
-}
-
-article .why-choose > .img:nth-child(2) {
   width: 89px;
   height: 307px;
   right: 0px;
   background-image: url(../images/logo/lg-為什麼選擇了做甜點.svg);
+}
+
+article .why-choose > .img:nth-child(2) {
+  width: 460px;
+  height: 460px;
+  left: 0px;
+  background-image: url(../images/others/le-buzz-576478-unsplash.jpg);
 }
 
 article .why-choose .description > p {
