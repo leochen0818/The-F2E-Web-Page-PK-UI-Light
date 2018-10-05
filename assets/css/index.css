@@ -156,91 +156,20 @@ article .today-choice {
   height: 436px;
 }
 
-article .today-choice .choice-item {
-  width: 300px;
-  float: left;
-  position: relative;
-}
-
-article .today-choice .choice-item > p {
-  width: 16px;
-  -webkit-writing-mode: vertical-lr;
-  writing-mode: vertical-lr ;
-  letter-spacing: 5px;
-  padding: 10px;
-  position: absolute;
-  top: 0px;
-  left: 20px;
-}
-
-article .today-choice .choice-item .img {
-  height: 315px;
-  background-size: cover;
-  background-position: center center;
-}
-
-article .today-choice .choice-item:nth-child(2) {
+.choice-item:nth-child(2) {
   margin: 0px 20px;
 }
 
-article .today-choice .choice-item:first-child .img {
+.choice-item:first-child .img {
   background-image: url(../images/others/heather-schwartz-493946-unsplash.jpg);
 }
 
-article .today-choice .choice-item:nth-child(2) .img {
+.choice-item:nth-child(2) .img {
   background-image: url(../images/others/food-photographer-jennifer-pallian-650641-unsplash.jpg);
 }
 
-article .today-choice .choice-item:last-child .img {
+.choice-item:last-child .img {
   background-image: url(../images/others/rezel-apacionado-362238-unsplash.jpg);
-}
-
-article .today-choice .choice-item .description {
-  height: 56px;
-}
-
-article .today-choice .choice-item .description > p {
-  float: left;
-  text-align: center;
-  font-size: 20px;
-  line-height: 56px;
-  position: relative;
-}
-
-article .today-choice .choice-item .description > p::before,
-article .today-choice .choice-item .description > p:last-child::after {
-  content: " ";
-  display: block;
-  width: 1px;
-  height: 56px;
-  background-color: #EAF0ED;
-  position: absolute;
-  top: 0px;
-}
-
-article .today-choice .choice-item .description > p::before {
-  left: 0px;
-}
-
-article .today-choice .choice-item .description > p:first-child {
-  width: 57.666%;
-}
-
-article .today-choice .choice-item .description > p:last-child {
-  width: 42.333%;
-}
-
-article .today-choice .choice-item .description > p:last-child::after {
-  right: 0px;
-}
-
-article .today-choice .choice-item button {
-  width: 100%;
-  display: block;
-  border: none;
-  font-size: 24px;
-  line-height: 65px;
-  padding: 0px;
 }
 
 /* 低於 1024 之螢幕設定 */
