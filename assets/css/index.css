@@ -242,3 +242,30 @@ article .today-choice .choice-item button {
   line-height: 65px;
   padding: 0px;
 }
+
+/* 低於 1024 之螢幕設定 */
+
+@media screen and (max-width: 1023px) {
+
+  /* Main Banner */
+
+  article .main-banner {
+    height: 277px;
+    margin-bottom: 180px;
+  }
+
+  article .main-banner ul {
+    width: 100%;
+    left: 0px;
+    top: 277px;
+  }
+
+  article .main-banner ul > li {
+    height: 180px;
+  }
+
+  article .main-banner ul > li > a {
+    line-height: 33.333vw;
+  }
+
+}
