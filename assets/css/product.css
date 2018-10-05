@@ -1,0 +1,95 @@
+/* 主要 Banner 區域 */
+
+.banner {
+  width: 860px;
+  height: 416px;
+  background-image: url(../images/others/toa-heftiba-470545-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: right;
+  padding: 40px;
+  margin: 0px auto 60px;
+}
+
+.banner img {
+  width: 89px;
+  height: 328px;
+}
+
+/* Container */
+
+.container {
+  max-width: 940px;
+  padding: 0px 42px;
+  margin: auto;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.container aside,
+.container article {
+  float: left;
+}
+
+/* 甜點類別區域 */
+
+.container aside {
+  width: 300px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.container aside h3,
+.container aside li {
+  line-height: 56px;
+}
+
+/* 商品區域 */
+
+.container aside li {
+  border: #EAF0ED 1px solid;
+  cursor: pointer;
+}
+
+.container aside li:hover,
+.container aside li:active {
+  background-color: #EAF0ED;
+}
+
+.container article {
+  width: 620px;
+  padding: 0px;
+}
+
+.container article .choice-item {
+  margin-bottom: 20px;
+}
+
+.container article .choice-item:nth-child(2n+1) {
+  margin-right: 20px;
+}
+
+.container article .choice-item:first-child .img {
+  background-image: url(../images/others/brenda-godinez-228182-unsplash.jpg);
+}
+
+.container article .choice-item:nth-child(2) .img {
+  background-image: url(../images/others/heather-schwartz-493946-unsplash.jpg);
+}
+
+.container article .choice-item:nth-child(3) .img {
+  background-image: url(../images/others/brooke-lark-96398-unsplash.jpg);
+}
+
+.container article .choice-item:nth-child(4) .img {
+  background-image: url(../images/others/food-photographer-jennifer-pallian-137621-unsplash.jpg);
+}
+
+.container article .choice-item:nth-child(5) .img {
+  background-image: url(../images/others/food-photographer-jennifer-pallian-650641-unsplash.jpg);
+}
+
+.container article .choice-item:last-child .img {
+  background-image: url(../images/others/food-photographer-jennifer-pallian-306895-unsplash.jpg);
+}
