@@ -63,6 +63,10 @@ body {
   background-color: white;
 }
 
+h2, h3 {
+  font-weight: bold;
+}
+
 header, footer, article {
   margin: 0 auto;
 }
@@ -148,6 +152,7 @@ footer .subscription h3 {
   position: absolute;
   top: 0px;
   left: 182px;
+  font-weight: normal;
 }
 
 footer .subscription .logo {
