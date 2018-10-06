@@ -1,0 +1,95 @@
+.container {
+  max-width: 780px;
+  overflow: hidden;
+  margin: 0px auto;
+  padding: 30px 0px 60px;
+}
+
+.container article,
+.container aside {
+  width: 330px;
+  float: left;
+}
+
+.container article {
+  padding: 30px 30px 0px;
+}
+
+.container article h2 {
+  text-align: center;
+  font-size: 36px;
+  line-height: 70px;
+  margin-bottom: 30px;
+}
+
+.container article .input-area {
+  margin-bottom: 16px;
+}
+
+.container article .input-area label {
+  display: block;
+  padding: 0px 20px;
+  line-height: 56px;
+  height: 56px;
+  position: relative;
+}
+
+.container article .input-area label input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  display: block;
+  line-height: 56px;
+  position: absolute;
+  top: 0px;
+  left: 64px;
+  font-size: 16px;
+  padding: 0px;
+  width: 246px;
+}
+
+.container article .input-area label input::placeholder {
+  color: #8DA291;
+}
+
+.container article .input-area label input::-webkit-input-placeholder {
+  color: #8DA291;
+}
+
+.container article .input-area label input::-moz-placeholder  {
+  color: #8DA291;
+}
+
+.container article .input-area label input::-ms-input-placeholder {
+  color: #8DA291;
+}
+
+.container article p:nth-child(3) {
+  line-height: 22px;
+}
+
+.container article p:nth-child(3) input {
+  border-radius: 0px;
+  border: none;
+  width: 16px;
+  height: 16px;
+}
+
+.container article p:nth-child(3) label {
+  cursor: pointer;
+}
+
+.container article p:last-child {
+  margin: 22px -30px 0px;
+}
+
+.container article button {
+  display: block;
+  background-color: #FFE180;
+  height: 65px;
+  font-size: 24px;
+  width: 100%;
+  border: none;
+}
+
+
