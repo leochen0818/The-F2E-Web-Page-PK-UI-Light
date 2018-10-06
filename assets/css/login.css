@@ -1,3 +1,5 @@
+/* 共同設定 */
+
 .container {
   max-width: 780px;
   overflow: hidden;
@@ -7,11 +9,13 @@
 
 .container article,
 .container aside {
-  width: 330px;
   float: left;
 }
 
+/* 登入區域 */
+
 .container article {
+  width: 330px;
   padding: 30px 30px 0px;
 }
 
@@ -92,4 +96,43 @@
   border: none;
 }
 
+/* 連結社群帳號區域 */
 
+.container aside {
+  width: 390px;
+  padding: 20px 0px;
+}
+
+.container aside .shell {
+  padding: 40px 30px;
+}
+
+.container aside .shell h2 {
+  color: #8DA291;
+  font-weight: normal;
+  text-align: center;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 21px;
+}
+
+.container aside .shell li {
+  margin-top: 16px;
+  background-color: white;
+}
+
+.container aside .shell li a {
+  display: block;
+  line-height: 56px;
+  text-align: center;
+}
+
+.container aside .shell li a img {
+  height: 20px;
+  vertical-align: sub;
+}
+
+.container aside .shell li:nth-child(2) a img {
+  height: 31px;
+  vertical-align: middle;
+}
