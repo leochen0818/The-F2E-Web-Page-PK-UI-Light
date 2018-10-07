@@ -90,6 +90,10 @@
   margin-right: 8px;
 }
 
+.container article form .float-right {
+  float: right;
+}
+
 .container article form > p > label,
 .container article form > p > input,
 .container article form > p > select {
@@ -135,6 +139,10 @@
   appearance: none;
   float: left;
   border: none;
+}
+
+.container article form > p.address select.float-right {
+  float: right;
 }
 
 .container article form > p.address select#city {
@@ -245,4 +253,31 @@
   font-weight: bold;
   margin-top: 2px;
   line-height: 28px;
+}
+
+/* 低於 1024 之螢幕設定 */
+
+@media screen and (max-width: 1023px) {
+
+  .container {
+    padding: 84px 0px 0px;
+    max-width: 100%;
+  }
+
+  .container article {
+    width: 100%;
+    padding: 30px 30px 0px;
+    margin-right: 0px;
+    box-sizing: border-box;
+  }
+
+  .container article form > p,
+  .container article form > p.address select {
+    width: 48.5%;
+  }
+
+  .container article p.button {
+    margin: 0 -30px;
+  }
+
 }
