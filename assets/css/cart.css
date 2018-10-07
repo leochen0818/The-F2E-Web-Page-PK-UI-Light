@@ -74,8 +74,8 @@
 
 .container article .cart-item .description .content {
   position: relative;
-  top:50%;
-  transform:translateY(-50%);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .container article .cart-item .description .content p:first-child {
