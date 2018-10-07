@@ -1,0 +1,23 @@
+.container article .segment {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.container article .segment li {
+  float: left;
+  width: 50%;
+  line-height: 56px;
+  text-align: center;
+  border: 1px solid #EAF0ED;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.container article .segment li.selected {
+  background-color: #EAF0ED;
+  color: #3F5D45;
+}
+
+.container article .segment li a {
+  display: block;
+}
