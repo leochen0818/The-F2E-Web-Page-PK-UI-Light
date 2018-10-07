@@ -21,3 +21,23 @@
 .container article .segment li a {
   display: block;
 }
+
+.container article p.address {
+  position: relative;
+}
+
+.container article p.address .same-checkbox {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+  line-height: 26px;
+}
+
+.container article p.address .same-checkbox input {
+  width: 16px;
+  height: 16px;
+  background-color: #EAF0ED;
+  border: none;
+}
