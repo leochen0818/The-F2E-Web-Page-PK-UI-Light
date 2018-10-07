@@ -136,3 +136,78 @@
   height: 31px;
   vertical-align: middle;
 }
+
+@media screen and (max-width: 1023px) {
+
+  .container {
+    max-width: 100%;
+    padding: 84px 0px 0px;
+  }
+
+  .container article,
+  .container aside {
+    float: none;
+    width: 100%;
+  }
+
+  .container article {
+    box-sizing: border-box;
+  }
+
+  .container article h2 {
+    line-height: 50px;
+  }
+
+  .container article p:last-child {
+    margin-top: 27px;
+  }
+  
+  .container article .shell {
+    margin: 0px -30px;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  .container article .shell ul {
+    overflow: hidden;
+  }
+
+  .container article .shell ul li {
+    width: 33.333%;
+    float: left;
+    margin-top: 0px;
+    position: relative;
+  }
+
+  .container article .shell li:nth-child(2)::before,
+  .container article .shell li:nth-child(2)::after {
+    content: " ";
+    width: 1px;
+    height: 56px;
+    background-color: #EAF0ED;
+    display: block;
+    position: absolute;
+    top: 0px;
+  }
+
+  .container article .shell li:nth-child(2)::before {
+    left: 0px;
+  }
+
+  .container article .shell li:nth-child(2)::after {
+    right: 0px;
+  }
+
+  .container article .shell li:first-child a img {
+    height: 16px;
+  }
+
+  .container article .shell li:nth-child(2) a img {
+    height: 24px;
+  }
+
+  .container article .shell li:last-child a img {
+    height: 17px;
+  }
+
+}
