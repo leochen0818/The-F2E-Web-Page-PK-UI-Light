@@ -107,7 +107,7 @@
   padding: 40px 30px;
 }
 
-.container aside .shell h2 {
+.container .shell h2 {
   color: #8DA291;
   font-weight: normal;
   text-align: center;
@@ -116,23 +116,23 @@
   margin-bottom: 21px;
 }
 
-.container aside .shell li {
+.container .shell li {
   margin-top: 16px;
   background-color: white;
 }
 
-.container aside .shell li a {
+.container .shell li a {
   display: block;
   line-height: 56px;
   text-align: center;
 }
 
-.container aside .shell li a img {
+.container .shell li a img {
   height: 20px;
   vertical-align: sub;
 }
 
-.container aside .shell li:nth-child(2) a img {
+.container .shell li:nth-child(2) a img {
   height: 31px;
   vertical-align: middle;
 }
